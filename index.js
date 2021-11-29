@@ -24,6 +24,12 @@ const data = [
     img: "https://media.istockphoto.com/photos/cricket-bat-and-ball-place-on-cricket-ground-green-grass-picture-id1306078671?b=1&k=20&m=1306078671&s=170667a&w=0&h=0quNvb3B8AjPw16-AMKltG_gDhLgx_eZISms5p_qWak=",
     stock: "44",
   },
+  {
+    name: "comb",
+    price: 420,
+    img: "https://image.made-in-china.com/44f3j00OrhabFBInjzL/10-Jumbo-Comb-Hair-Combs-Black-Wide-Tooth-Comb-Detangling-Hair-Brush-Paddle-Hair-Comb-Care-Handgrip-Comb-Best-Styling-Comb-for-Long.jpg",
+    stock: "44",
+  },
 ];
 //Create items
 app.post("/api/items", async (req, res) => {
